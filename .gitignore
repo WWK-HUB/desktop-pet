@@ -1,0 +1,34 @@
+# Local credentials (never add with git add -f).
+.env
+.env.*
+!.env.example
+model-settings.json
+model-settings.json.*
+*.log
+*.log.*
+logs/
+# Generated executables, test captures and local build output.
+*.exe
+*.pdb
+tests/results/
+
+# Private local conversation archives and context preferences.
+user-data/
+
+# Generated dialogue and distribution output.
+characters/**/ambient-lines.json
+dist/
+release/
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Personal characters, source artwork and selection stay on this computer.
+/characters/
+/image/
+/*.png
+/runner.json
+# Test artwork is generated from geometry, never committed.
+/tests/fixtures/demo/assets/

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "id": "demo_character",
+  "display_name": "小曜",
+  "default_size": 190,
+  "size_options": [
+    140,
+    190,
+    250
+  ],
+  "default_expression": "normal",
+  "default_animation": "wave",
+  "persona": "persona.json",
+  "icon": "avatar",
+  "sprite_sheet": "assets/character-sheet.png",
+  "remove_dark_background": true,
+  "background_threshold": 38,
+  "sprites": {
+    "front": {
+      "region": [
+        363,
+        157,
+        194,
+        322
+      ]
+    },
+    "left": {
+      "region": [
+        585,
+        159,
+        189,
+        320
+      ]
+    },
+    "back": {
+      "region": [
+        809,
+        158,
+        191,
+        321
+      ]
+    },
+    "right": {
+      "region": [
+        1019,
+        158,
+        192,
+        321
+      ]
+    },
+    "normal": {
+      "region": [
+        30,
+        609,
+        173,
+        229
+      ]
+    },
+    "happy": {
+      "region": [
+        232,
+        609,
+        195,
+        229
+      ]
+    },
+    "wink": {
+      "region": [
+        437,
+        608,
+        174,
+        230
+      ]
+    },
+    "surprised": {
+      "region": [
+        633,
+        604,
+        183,
+        234
+      ]
+    },
+    "sad": {
+      "region": [
+        841,
+        613,
+        196,
+        225
+      ]
+    },
+    "angry": {
+      "region": [
+        1047,
+        613,
+        167,
+        225
+      ]
+    },
+    "walk": {
+      "region": [
+        49,
+        950,
+        143,
+        219
+      ]
+    },
+    "run": {
+      "region": [
+        250,
+        950,
+        145,
+        219
+      ]
+    },
+    "jump": {
+      "region": [
+        450,
+        925,
+        139,
+        244
+      ]
+    },
+    "wave": {
+      "region": [
+        646,
+        948,
+        171,
+        221
+      ]
+    },
+    "avatar": {
+      "region": [
+        931,
+        1038,
+        142,
+        133
+      ]
+    }
+  },
+  "expressions": {
+    "normal": "normal",
+    "happy": "happy",
+    "wink": "wink",
+    "surprised": "surprised",
+    "sad": "sad",
+    "angry": "angry"
+  },
+  "animations": {
+    "idle": {
+      "sprite": "normal",
+      "motion": "idle"
+    },
+    "walk": {
+      "sprite": "walk",
+      "motion": "walk"
+    },
+    "run": {
+      "sprite": "run",
+      "motion": "run"
+    },
+    "jump": {
+      "sprite": "jump",
+      "motion": "jump"
+    },
+    "wave": {
+      "sprite": "wave",
+      "motion": "idle"
+    }
+  },
+  "messages": {
+    "startup": "你好！右键看看我能做什么",
+    "pet": "嘿嘿，有你陪着真好",
+    "wave": "嗨！我在这里",
+    "jump": "看我的！",
+    "run": "出发！",
+    "drag": "要带我去哪里？",
+    "drop": "就在这里陪你吧",
+    "released": "站稳啦",
+    "recall": "我回来啦",
+    "wander_on": "去附近走走",
+    "wander_off": "就在这里陪你",
+    "rest_on": "好，我安静待着",
+    "rest_off": "休息好啦",
+    "normal": "我在呢",
+    "happy": "今天也要开心",
+    "wink": "给你一个 wink",
+    "surprised": "哇！",
+    "sad": "陪我待一会儿吧",
+    "angry": "哼，快来哄哄我"
+  }
+}
